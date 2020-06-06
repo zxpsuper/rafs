@@ -1,4 +1,4 @@
-<p align="center"><a href="https://github.com/zxpsuper/rafs" target="_blank" rel="noopener noreferrer"><img width="100" src="https://imgkr.cn-bj.ufileos.com/3e6abfaf-4e32-4549-bb6f-dc18f30ed657.png" alt="Vue logo"></a></p>
+<p align="center"><a href="https://github.com/zxpsuper/rafs" target="_blank" rel="noopener noreferrer"><img width="100" src="https://imgkr.cn-bj.ufileos.com/3e6abfaf-4e32-4549-bb6f-dc18f30ed657.png" alt="Rafs logo"></a></p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/build-passing-brightgreen" alt="Build Status">
