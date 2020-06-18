@@ -1,6 +1,6 @@
 {
     "name": "rafs",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "A powerful requestAnimationFrame library",
     "main": "libs/rafs.umd.js",
     "mainMin": "libs/rafs.umd.min.js",
@@ -30,6 +30,10 @@
         "webpack-dev-server": "^3.1.6",
         "webpack-merge": "^4.1.4"
     },
+    "keywords": [
+        "requestAnimationFrame",
+        "polyfill"
+    ],
     "scripts": {
         "start": "webpack-dev-server --hot --open --config ./build/webpack.dev.js",
         "dev": "npm start",

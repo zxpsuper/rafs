@@ -21,7 +21,7 @@ npm install rafs --save
 ## Usage
 
 ```js
-import { requestAnimationFrame, cancelAnimationFrame } from 'rafs'
+import { requestAnimationFrame, cancelAnimationFrame, raf, caf } from 'rafs'
 
 let id1 = requestAnimationFrame(callback1)
 let id2 = requestAnimationFrame(callback2)
@@ -30,6 +30,10 @@ cancelAnimationFrame(id1)
 
 // cancal All without params
 cancelAnimationFrame()
+// raf is the window.requestAnimationFrame api which is Compatible with different browsers
+// caf is the window.cancelAnimationFrame api which is Compatible with different browsers
+let id = raf(function () {})
+caf(id)
 ```
 
 Or use it by script tag

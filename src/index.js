@@ -98,3 +98,6 @@ let instance = new Rafs()
 
 export const requestAnimationFrame = instance.add.bind(instance)
 export const cancelAnimationFrame = instance.cancel.bind(instance)
+
+export const raf = window.requestAnimationFrame
+export const caf = window.cancelAnimationFrame
